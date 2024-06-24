@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+.design {
+    background-color: rgb(117, 178, 247);
+    /* position: fixed;  */
+    z-index: 1000;
+    width: 100%; 
+    height: min-content;
+}
+
+.updiv {
+    display: flex;
+    justify-content: space-between;
+    /* font-size: x-small; */
+    overflow: hidden;
+}
+.updiv p {
+    margin: 0px;
+    margin-left: 10px;
+    font-size: x-small;
+}
+.parentDepartment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.updiv a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: x-small;
+    color: rgb(87, 79, 79);
+}
+.dndiv {
+    display: flex;
+    /* height: 80px; */
+    
+}
+
+.dndiv h5 {
+    margin: auto;
+    margin-left: 2px;
+}
+
+.navlogo {
+    width: 40%;
+    display: flex;
+    padding: 10px;
+}
+.deptName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#engDeptName {
+    line-height: 1px;
+}
+#holdingDeptName {
+    line-height: 30px;
+}
+.link {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.utility {
+    display: flex;
+    overflow: hidden;
+    font-size: small;
+    height: 25%;
+    /* margin: auto; */
+    margin-top: 40px;
+    background: #ab5656;
+    border-radius: 15px;
+}
+
+.utility .nav {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.main {
+    position: absolute;
+    font-size: 0.95rem;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0px;
+    background: #79a3dd;
+    margin-right: 0px;
+    right: 0;
+    z-index: 2;
+}
+
+.navLinkcolor {
+    color: rgb(78, 76, 76);
+}
+
+.navLinkcolor:hover {
+    color: #2578f4;
+}
+
+.imgdim {
+    object-fit: scale-down;
+    height: 100px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+/* offcanvas button design */
+.btn {
+    width: 100%;
+    background-color: #c9722b54;
+    border-color: #007bff77;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #b30057;
+    border-color: #4eb300;
+}
+
+
+
+
+@media (max-width: 1180px) {
+    .updiv {
+        overflow: hidden;
+    }
+    .dndiv {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .navlogo{
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+    }
+    .utility {
+        width: 100%;
+    }
+    .imgdim {
+        height: 80px;
+    }
+    .utility .nav {
+        width: 100%;
+        gap: 0;
+        overflow: hidden;
+        height: 25px;
+        font-size: x-small;
+    }
+    .dndiv h4 {
+        font-size: medium;
+    }
+    .link {
+        width: 100%;
+        display: block;
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .design {
+        display: flex;
+        flex-direction: column;
+    }
+    .utility {
+        border-radius: 10px;
+        overflow: hidden;
+        height: 30px;
+        width: 100%;
+    }
+    .utility .nav {
+        gap: 0px;
+    }
+    .link {
+        width: 100%;
+        display: block;
+        justify-content: center;
+    }
+    .navlogo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .imgdim {
+        height: 80px;
+    }
+    .utilityLink{
+        height: 15px;
+        width: 80%;
+        overflow: hidden;
+        
+
+    }
+
+
+     .custom-button-group1 {
+        font-size: 0.5rem !important;
+    }
+    
+  
+    
+    .bluebg{
+        bottom: 0;
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+        
+    }
+  
+}

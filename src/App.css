@@ -1,0 +1,8 @@
+/* Ensuring the container has appropriate styling */
+.app-container {
+    display: flex;
+    flex-direction: column; /* Stacking components vertically */ 
+  }
+  
+
+  
